@@ -1,0 +1,333 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "Greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "Greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "Greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "Greet",
+        "text": "What's up"
+      },
+      {
+        "intent": "Greet",
+        "text": "How are you doing?"
+      },
+      {
+        "intent": "Greet",
+        "text": "How have you been?"
+      },
+      {
+        "intent": "Greet",
+        "text": "So what's new?"
+      },
+      {
+        "intent": "Greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "Greet",
+        "text": "Good afternoon"
+      },
+      {
+        "intent": "Greet",
+        "text": "Good evening"
+      },
+      {
+        "intent": "Greet",
+        "text": "Pleasure to meet you"
+      },
+      {
+        "intent": "Bye",
+        "text": "Good bye"
+      },
+      {
+        "intent": "Bye",
+        "text": "bye"
+      },
+      {
+        "intent": "Bye",
+        "text": "See you later"
+      },
+      {
+        "intent": "Bye",
+        "text": "See you soon"
+      },
+      {
+        "intent": "Bye",
+        "text": "catch up with you later"
+      },
+      {
+        "intent": "general info",
+        "text": "what is covid 19"
+      },
+      {
+        "intent": "general info",
+        "text": "how did covid happen"
+      },
+      {
+        "intent": "general info",
+        "text": "what is the cause of covid"
+      },
+      {
+        "intent": "symptoms",
+        "text": "what are the symptoms of covid"
+      },
+      {
+        "intent": "symptoms",
+        "text": "covid symptoms"
+      },
+      {
+        "intent": "symptoms",
+        "text": "how do I check for covid"
+      },
+      {
+        "intent": "symptoms",
+        "text": "do I have covid"
+      },
+      {
+        "intent": "vaccine",
+        "text": "is the vaccine out"
+      },
+      {
+        "intent": "vaccine",
+        "text": "what vaccines are being used"
+      },
+      {
+        "intent": "vaccine",
+        "text": "what medicine is affective"
+      },
+      {
+        "intent": "vaccine recommended",
+        "text": "is it recommended to get vaccinated"
+      },
+      {
+        "intent": "vaccine recommended",
+        "text": "is the covid vaccine safe"
+      },
+      {
+        "intent": "vaccine side effects",
+        "text": "are there any side effects to getting covid vaccine"
+      },
+      {
+        "intent": "vaccine side effects",
+        "text": "covid vaccine side effects"
+      },
+      {
+        "intent": "testing",
+        "text": "where can I get tested for covid"
+      },
+      {
+        "intent": "testing",
+        "text": "Covid testing centres near me"
+      },
+      {
+        "intent": "testing",
+        "text": "how long does it take to get tested"
+      },
+      {
+        "intent": "testing",
+        "text": "how long does it get for report to arrive"
+      },
+      {
+        "intent": "spread",
+        "text": "how does covid spread"
+      },
+      {
+        "intent": "spread",
+        "text": "does covid spread through [air]{\"entity\": \"air\"}"
+      },
+      {
+        "intent": "spread",
+        "text": "does covid spread through [touch]{\"entity\": \"touch\"}"
+      },
+      {
+        "intent": "spread",
+        "text": "shell life of covid virus"
+      },
+      {
+        "intent": "spread",
+        "text": "does covid spread through [water]{\"entity\": \"water\"}"
+      },
+      {
+        "intent": "spread",
+        "text": "does covid spread through [sneeze]{\"entity\": \"sneeze\"}"
+      },
+      {
+        "intent": "spread",
+        "text": "does covid spread through [cough]{\"entity\": \"cough\"}"
+      },
+      {
+        "intent": "safety measures",
+        "text": "are masks effective"
+      },
+      {
+        "intent": "safety measures",
+        "text": "should we mantain social distancing"
+      },
+      {
+        "intent": "safety measures",
+        "text": "is it advisable to wear a mask"
+      },
+      {
+        "intent": "safety measures",
+        "text": "what food can we eat to increase immunity"
+      },
+      {
+        "intent": "safety measures",
+        "text": "which mask should be worn"
+      },
+      {
+        "intent": "distance between individuals",
+        "text": "how much distance should there be between individuals"
+      },
+      {
+        "intent": "distance between individuals",
+        "text": "what is the social distancing"
+      },
+      {
+        "intent": "distance between individuals",
+        "text": "how far should I stand away from another person"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "Is any of the vaccines [pFizer]{\"entity\": \"vaccine_name\"}, [Astrazeneca]{\"entity\": \"vaccine_name\"} etc effective"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "what is the effectiveness of the current vaccines"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "how effective is [pFizer]{\"entity\": \"vaccine_name\"}"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "how effective is [moderna]{\"entity\": \"vaccine_name\")"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "how effective is [astrazeneca]{\"entity\": \"vaccine_name\"}"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "how effective is [covvacine]{\"entity\": \"vaccine_name\"}"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "is [moderna]{\"entity\": \"vaccine_name\"} effective"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "is [astrazeneca]{\"entity\": \"vaccine_name\"} effective"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "is [pfizer]{\"entity\": \"vaccine_name\"} effective"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "is [covaccine]{\"entity\": \"vaccine_name\"} effective"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "what is the efficacy of [pfizer]{\"entity\": \"vaccine_name\"}"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "what is the efficacy of [moderna]{\"entity\": \"vaccine_name\"}"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "what is the efficacy of [Astrazeneca]{\"entity\": \"vaccine_name\"}"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "what is the efficacy of [covvacine]{\"entity\": \"vaccine_name\"}"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "is [pfizer]{\"entity\": \"vaccine_name\"} useful"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "is [astrazeneca]{\"entity\": \"vaccine_name\"} useful"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "is [moderna]{\"entity\": \"vaccine_name\"} useful"
+      },
+      {
+        "intent": "vaccine effectiveness",
+        "text": "is [covvacine]{\"entity\": \"vaccine_name\"} useful"
+      },
+      {
+        "intent": "measures if infected",
+        "text": "what should one do if infected with the virus"
+      },
+      {
+        "intent": "measures if infected",
+        "text": "procedures or measures to follow if infected with the virus"
+      },
+      {
+        "intent": "travel",
+        "text": "is it safe to travel during this period"
+      },
+      {
+        "intent": "travel",
+        "text": "what [precautions]{\"entity\" : \"preventive_measures\"} to take while traveling"
+      },
+      {
+        "intent": "cases spread",
+        "text": "what is the virus spread in India"
+      },
+      {
+        "intent": "cases spread",
+        "text": "which state is most affected by the virus"
+      },
+      {
+        "intent": "total deaths",
+        "text": "total deaths happened by the virus in India"
+      },
+      {
+        "intent": "total deaths",
+        "text": "age wise death poll"
+      },
+      {
+        "intent": "total deaths",
+        "text": "total death percentage of India by the virus"
+      },
+      {
+        "intent": "total recovery",
+        "text": "recovery percentage of ifected people by the virus"
+      },
+      {
+        "intent": "food",
+        "text": "does virus spread through food"
+      },
+      {
+        "intent": "food",
+        "text": "is it safe to get food or groceries delivered"
+      },
+      {
+        "intent": "food",
+        "text": "how should I wash fruits and vegetables"
+      },
+      {
+        "intent": "food",
+        "text": "Can the virus that causes covid live on the surface of food packaging?"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

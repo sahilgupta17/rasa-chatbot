@@ -1,0 +1,69 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "Greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "Greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "Greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "Greet",
+        "text": "What's up"
+      },
+      {
+        "intent": "Greet",
+        "text": "How you doing?"
+      },
+      {
+        "intent": "Greet",
+        "text": "How have you been?"
+      },
+      {
+        "intent": "Greet",
+        "text": "So what's new?"
+      },
+      {
+        "intent": "Greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "Greet",
+        "text": "Good afternoon"
+      },
+      {
+        "intent": "Greet",
+        "text": "Good evening"
+      },
+      {
+        "intent": "Bye",
+        "text": "Good bye"
+      },
+      {
+        "intent": "Bye",
+        "text": "bye"
+      },
+      {
+        "intent": "Bye",
+        "text": "See you later"
+      },
+      {
+        "intent": "Bye",
+        "text": "See you soon"
+      },
+      {
+        "intent": "Bye",
+        "text": "catch up with you later"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
